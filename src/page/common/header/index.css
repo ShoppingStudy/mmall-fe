@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-20 09:43:53
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-20 10:24:56
+* @Last Modified time: 2017-09-22 10:43:40
 */
 /*通用头部导航*/
 .header .logo{
@@ -13,6 +13,7 @@
 	font-size: 36px;
 	color: #c60023;
 	font-weight: bold;
+	text-decoration: none;
 }
 .header .search-con{
 	padding: 40px 0 30px 250px;
@@ -30,4 +31,14 @@
 	position: absolute;
 	height: 44px;
 	width: 80px;
+}
+/*面包屑导航*/
+.crumb{
+	margin-bottom: 15px;
+	height: 50px;
+	line-height: 50px;
+	background: #eee;
+	color: #888;
+	font-size: 14px;
+	border-top: 2px solid #c60023;
 }

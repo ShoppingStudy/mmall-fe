@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-19 16:14:27
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-19 17:16:02
+* @Last Modified time: 2017-09-22 11:15:31
 */
 *{
 	margin: 0;
@@ -33,7 +33,23 @@ input[type='checkbox']{
 	position: relative;
 	overflow: hidden;
 }
-
+/*panel*/
+.panel{
+	padding: 10px ;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.panel .panel-title{
+	padding:10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+	padding: 10px;
+	overflow: hidden;
+}
 /*全局通用样式*/
 
 /*隐藏类*/

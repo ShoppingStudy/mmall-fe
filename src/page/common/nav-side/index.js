@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-20 16:24:03
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-20 17:00:36
+* @Last Modified time: 2017-09-23 15:59:36
 */
 'use strict';
 require('./index.css');
@@ -16,7 +16,7 @@ var navSide = {
 		navList : [
 			{name : 'user-center', desc : '个人中心' , href: './user-center.html'},
 			{name : 'order-list', desc : '我的订单' , href: './order-list.html'},
-			{name : 'pass-update', desc : '修改密码' , href: './pass-update.html'},
+			{name : 'user-pass-update', desc : '修改密码' , href: './user-pass-update.html'},
 			{name : 'about', desc : '关于MMall' , href: './about.html'}
 		]
 	},
