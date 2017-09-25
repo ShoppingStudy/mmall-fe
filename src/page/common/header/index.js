@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-20 09:43:43
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-20 15:54:28
+* @Last Modified time: 2017-09-24 14:19:44
 */
 'use strict';
 require('./index.css');
@@ -11,6 +11,7 @@ var _mm = require('util/mm.js');
 //通用页面头部
 var header = {
 	init : function(){
+		this.onLoad();
 		this.bindEvent();
 	},
 	onLoad : function(){
