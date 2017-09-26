@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-19 10:50:33
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-23 15:35:58
+* @Last Modified time: 2017-09-26 11:00:35
 */
 'use strict';
 var Hogan = require('hogan');
@@ -25,8 +25,8 @@ var _mm = {
 				}
 				//未登录，需要强制登录
 				else if (10 === res.status){
-					_this.doLogin;
-					//window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
+					//_this.doLogin;
+					window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
 				}
 				//请求数据错误
 				else if(1 === res.status){

@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-24 14:08:51
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-25 13:50:38
+* @Last Modified time: 2017-09-26 08:24:27
 */
 'use strict';
 require('./index.css');
@@ -65,6 +65,7 @@ var page =  {
 	//加载list数据
 	loadList : function(){
 		var listParam = this.data.listParam,
+
 			listHtml = '',
 			_this = this,
 			$pListCon = $('.p-list-con');

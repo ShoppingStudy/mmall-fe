@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-20 08:39:44
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-20 09:15:25
+* @Last Modified time: 2017-09-26 17:42:45
 */
 'use strict';
 require('./index.css');
@@ -48,9 +48,9 @@ var nav = {
 	//加载购物车数量
 	loadCartCount : function(){
 		_cart.getCartCount(function(res){
-				$('.nav .cart-cont').text(res || 0);
+				$('.nav .cart-count').text(res || 0);
 			},function(errMsg){
-				$('.nav .cart-cont').text(0);
+				$('.nav .cart-count').text(0);
 		});
 	}
 };
