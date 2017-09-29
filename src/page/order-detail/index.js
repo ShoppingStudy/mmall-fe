@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-29 10:14:55
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-29 11:36:58
+* @Last Modified time: 2017-09-29 12:46:30
 */
 'use strict';
 require('./index.css');
@@ -54,7 +54,7 @@ var page = {
 			orderDetailHtml = _mm.renderHtml(templateIndex,res);
 			$content.html(orderDetailHtml);
 		},function(errMsg){
-			$content.html('<p class="err-tip">'+errMsg+'</p>')
+			$content.html('<p class="err-tip">'+errMsg+'</p>');
 		});
 	},
 	//数据的适配
