@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-26 08:58:06
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-26 17:45:57
+* @Last Modified time: 2017-09-27 09:02:56
 */
 'use strict';
 require('./index.css');
@@ -128,7 +128,7 @@ var page =  {
 		$(document).on('click','.btn-submit',function(){
 			//总价大于0，进行提交
 			if(_this.data.cartInfo && _this.data.cartInfo.cartTotalPrice > 0){
-				window.location.href = './confirm.html';
+				window.location.href = './order-confirm.html';
 			}else{
 				_mm.errorTips('请选择商品后再提交');
 			}
