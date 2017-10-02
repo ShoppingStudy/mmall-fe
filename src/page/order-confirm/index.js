@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-27 09:03:28
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-28 17:57:05
+* @Last Modified time: 2017-09-29 16:50:48
 */
 'use strict';
 require('./index.css');
@@ -93,7 +93,7 @@ var page =  {
 	//加载地址列表
 	loadAddressList : function(){
 		var _this     = this;
-		$('.product-con').html('<div class="loading"></div>');
+		$('.address-con').html('<div class="loading"></div>');
 		// 获取购物车列表
 		_address.getAddressList(function(res){
 			_this.addressFilter(res);
