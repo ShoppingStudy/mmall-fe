@@ -1,0 +1,15 @@
+/*
+* @Author: imooc
+* @Date:   2017-09-22 10:22:49
+* @Last Modified by:   imooc
+* @Last Modified time: 2017-09-22 16:13:59
+*/
+.form-line{
+	height: 30px;
+	line-height: 30px;
+}
+.form-line .label{
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+}
