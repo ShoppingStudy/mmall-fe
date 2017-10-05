@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-29 12:14:57
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-29 12:46:07
+* @Last Modified time: 2017-10-05 10:12:31
 */
 'use strict';
 require('./index.css');
@@ -22,13 +22,14 @@ var page = {
 	onLoad : function(){
 		this.loadPaymentInfo();
 	},
-	//加載订单列表
+	//加载支付信息
 	loadPaymentInfo : function(){
 		var _this         = this,
 			paymentHtml = '',
 			$pageWrap      = $('.page-wrap');
 		$pageWrap.html('<div class="loading"></div>');
 		_payment.getPaymentInfo(_this.data.orderNo,function(res){
+			console.log(res);
 			//渲染html
 			paymentHtml = _mm.renderHtml(templateIndex,res);
 			$pageWrap.html(paymentHtml);
