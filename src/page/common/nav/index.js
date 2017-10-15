@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-20 08:39:44
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-09-26 17:42:45
+* @Last Modified time: 2017-10-15 22:40:12
 */
 'use strict';
 require('./index.css');
@@ -24,7 +24,7 @@ var nav = {
 		});
 		//注册点击事件
 		$('.js-register').click(function(){
-			window.location.href = './register.html';
+			window.location.href = './user-register.html';
 		});
 		//退出点击事件
 		$('.js-logout').click(function(){
