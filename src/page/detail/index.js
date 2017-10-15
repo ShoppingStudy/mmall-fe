@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-25 13:47:13
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-10-15 21:14:32
+* @Last Modified time: 2017-10-15 21:42:02
 */
 'use strict';
 require('./index.css');
@@ -55,8 +55,7 @@ var page =  {
 				productId : _this.data.productId,
 				count 　　: $('.p-count').val()
 			},function(res){
-				alert("ok");
-				//window.location.href = './result.html?type=cart-add';
+				window.location.href = './result.html?type=cart-add';
 			},function(errMsg){
 				_mm.errorTips(errMsg);
 			});
