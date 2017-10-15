@@ -2,7 +2,7 @@
 * @Author: imooc
 * @Date:   2017-09-25 13:47:13
 * @Last Modified by:   imooc
-* @Last Modified time: 2017-10-15 21:42:02
+* @Last Modified time: 2017-10-15 23:01:01
 */
 'use strict';
 require('./index.css');
@@ -59,7 +59,7 @@ var page =  {
 			},function(errMsg){
 				_mm.errorTips(errMsg);
 			});
-		});
+		})
 	},
 	//加载商品详情的数据
 	loadDetail : function(){
